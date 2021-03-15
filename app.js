@@ -25,7 +25,7 @@ var truckIdentification = "Truck number 1";
 var rest = require("azure-maps-rest");
 
 // Enter your Azure Maps key.
-var subscriptionKeyCredential = new rest.SubscriptionKeyCredential("<your Azure Maps key>");
+var subscriptionKeyCredential = new rest.SubscriptionKeyCredential("oc_gTWrBLilyhtypSA0LaAsR5dNRn9S4I6fBPU_dPAA");
 
 // Azure Maps connection 
 var pipeline = rest.MapsURL.newPipeline(subscriptionKeyCredential);
